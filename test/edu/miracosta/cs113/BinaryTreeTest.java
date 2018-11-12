@@ -27,31 +27,26 @@ public class BinaryTreeTest {
     private static final String DEGENERATE_INPUT = "A \nnull \nB \nC \nnull \nD \nnull \nE \nnull \nnull \nnull";
     /** Data listed in pre-order traversal order to populate a perfect BinaryTree. */
     private static final String PERFECT_INPUT = "A \nB \nC \nnull \nnull \nD \nnull \nnull \nE \nF \nnull \nnull " +
-                                                "\nG \nnull \nnull";
+            "\nG \nnull \nnull";
     /** Data listed in pre-order traversal order to populate a complete BinaryTree. */
     private static final String COMPLETE_INPUT = "A \nB \nC \nD \nnull \nnull \nE \nnull \nnull \nF \nG \nnull " +
-                                                    "\nnull \nnull \nH \nI \nnull \nnull \nJ \nnull \nnull";
+            "\nnull \nnull \nH \nI \nnull \nnull \nJ \nnull \nnull";
     /** Data listed in pre-order traversal order to populate a full BinaryTree. */
     private static final String FULL_INPUT = "A \nB \nnull \nnull \nC \nD \nnull \nnull \nE \nnull \nnull";
-
     /** Expected value returned by an empty binary tree's toString. */
     private static final String EMPTY_TREE = "null\n";
-
     /** Expected value returned by a degenerate binary tree's toString. */
     private static final String DEGENERATE_TREE = "A\n null\n B\n  C\n   null\n   D\n    null\n    E\n     " +
-                                                    "null\n     null\n  null\n";
-
+            "null\n     null\n  null\n";
     /** Expected value returned by a perfect binary tree's toString. */
     private static final String PERFECT_TREE = "A\n B\n  C\n   null\n   null\n  D\n   null\n   null\n E\n  F\n   " +
-                                                "null\n   null\n  G\n   null\n   null\n";
-
+            "null\n   null\n  G\n   null\n   null\n";
     /** Expected value returned by a complete binary tree's toString. */
     private static final String COMPLETE_TREE = "A\n B\n  C\n   D\n    null\n    null\n   E\n    null\n    null\n  " +
-                        "F\n   G\n    null\n    null\n   null\n H\n  I\n   null\n   null\n  J\n   null\n   null\n";
-
+            "F\n   G\n    null\n    null\n   null\n H\n  I\n   null\n   null\n  J\n   null\n   null\n";
     /** Expected value returned by a full binary tree's toString. */
     private static final String FULL_TREE = "A\n B\n  null\n  null\n C\n  D\n   null\n   null\n  E\n   null\n   " +
-                                            "null\n";
+            "null\n";
 
     /** A BinaryTree to contain Node objects of type Character. */
     private BinaryTree<Character> charTree;

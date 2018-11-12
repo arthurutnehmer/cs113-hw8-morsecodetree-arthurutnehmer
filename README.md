@@ -1,7 +1,7 @@
 # CS113-HW08-MorseCodeTree
 ## HW #8 for CS113 - Morse Code translator + extending Binary Tree
 
-**[//Insert Build Status Image//]**
+**[![Build Status](https://travis-ci.com/MiraCostaCS-Nery/cs113-hw8-morsecodetree-arthurutnehmer.svg?token=N5NAyhrpuV9Ag1DXENbj&branch=master)](https://travis-ci.com/MiraCostaCS-Nery/cs113-hw8-morsecodetree-arthurutnehmer)**
 
 **International Morse Code, A-Z**
 
